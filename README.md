@@ -1,13 +1,17 @@
 # --------------------------- English ---------------------------
-# pw3i Batcher - Batch metadata parser from w3x w3m (from war3map.w3i war3map.wts)
+Author of pw3i.exe v1.02: Hodor xgm
 
-by Firstrun70
+Author of pw3i Batcher 1.0: Firstrun70
+
+# pw3i Batcher - Batch metadata parser from w3x w3m (from war3map.w3i war3map.wts)
 
 v1.0 [12.25.2019]
 
 Requires pw3i.exe v1.02
 
 _
+
+Parses all the information of the map automatically, for example, Author, Title, Description, Number of players, etc.
 
 Work methods:
 
@@ -21,15 +25,19 @@ pw3i 1.02 only works with File format = 18 25 28 and does not work with File for
 
 
 # --------------------------- Russian ---------------------------
+Автор of pw3i.exe v1.02: Hodor xgm
+
+Автор of pw3i Batcher 1.0: Firstrun70
+
 # pw3i Batcher - Пакетный парсер w3x w3m метаданных (из war3map.w3i war3map.wts)
 
 by Firstrun70
 
-v1.0 [25.12.2019]
-
 Требуется pw3i.exe v1.02
 
 _
+
+Автоматически парсит всю информацию по карте, например Автор, Название, Описание, Количество игроков и т.д.
 
 Методы работы:
 
