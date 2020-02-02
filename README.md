@@ -1,4 +1,4 @@
-# ------------------------------ English ------------------------------
+# --------------------------- English ---------------------------
 # pw3i Batcher - Batch metadata parser from w3x w3m (from war3map.w3i war3map.wts)
 by Firstrun70
 v1.0 [12.25.2019]
@@ -10,7 +10,7 @@ Work methods:
 The program has hidden working methods 11 12 13 21 22 23 (11=1 21=2), methods 12 13 22 23 are executed alternatively with other work logging.
 pw3i 1.02 only works with File format = 18 25 28 and does not work with File format = 8 10 11 15 23 24 26 27 31
 
-# ------------------------------ Russian ------------------------------
+# --------------------------- Russian ---------------------------
 # pw3i Batcher - Пакетный парсер w3x w3m метаданных (из war3map.w3i war3map.wts)
 by Firstrun70
 v1.0 [25.12.2019]
