@@ -1,25 +1,86 @@
 ------------------------------------- English -------------------------------------
-pw3i Batcher - Batch metadata parser from w3x w3m (from war3map.w3i war3map.wts)
+Batch unpack w3x w3m w3n mpq
+by Firstrun70
+
+Variation 1:
+WinMPQ Batcher - Batch resource unpacker from w3x w3m w3n mpq
 by Firstrun70
 v1.0 [12.25.2019]
-Requires pw3i.exe v1.02
 
+WinMPQ v1.64 + VB40032.DLL + WinMPQ Batcher 1.0
+Recommended use chcp 850
 Work methods:
 1 - works from the current folder. Before starting, you need to copy the bat file to the folder with maps.
 2 - works with direct folders. Run from anywhere.
-The program has hidden working methods 11 12 13 21 22 23 (11=1 21=2), methods 12 13 22 23 are executed alternatively with other work logging.
-pw3i 1.02 only works with File format = 18 25 28 and does not work with File format = 8 10 11 15 23 24 26 27 31
+The program has hidden working methods 11 12 21 22 (11=1 21=2), methods 12 and 22 are executed alternatively with other work logging.
+github https://github.com/Firstrun70/WinMPQ-Batcher
 
+Variation 2:
+Total Commander + MPQ plugin (download separately)
+Install plugin MPQ plugin (Copy to folder \Total commander\Plugins\wcx\MPQ\ )
+Configuration - Options - Packer - Configure packer extension WCXs - Write in the upper right corner "mpq" - New type - Choose the path to the plugin "MPQ plugin" - OK
+Do the same for w3x w3m w3n
 
+Select the desired w3x w3m w3n mpq files
+Alt+F9 (unpack)
+Choose where to unpack
+Mask for unpacking - war3map.j;war3map.w3i;war3map.wts;war3mapMap.blp;war3mapPreview.tga
+Check option "Unpack each archive to a separate subdir (name of the archive)" 
+
+Variation 3:
+MPQExtractor https://github.com/Kanma/MPQExtractor
+No compiled release
+
+Batch unpack all files from mpq:
+Variation 1 not suitable, WinMPQ decompresses only one file
+Variation 2 unpack mask *.*
+Variation 3 not compiled in exe
+
+war3mapMap.blp can be batch converted to png via the BLP Lab program https://www.hiveworkshop.com/threads/blp-lab-v0-5-0.137599/
+
+Protection http://www.zezula.net/en/mpq/war3maps.html
+filelist http://www.zezula.net/en/mpq/namebreak.html
 
 ------------------------------------- Russian -------------------------------------
-pw3i Batcher - ГЏГ ГЄГҐГІГ­Г»Г© ГЇГ Г°Г±ГҐГ° w3x w3m Г¬ГҐГІГ Г¤Г Г­Г­Г»Гµ (ГЁГ§ war3map.w3i war3map.wts)
+Пакетная распаковка w3x w3m w3n mpq
+by Firstrun70
+
+Вариант 1:
+WinMPQ Batcher - Пакетный распаковщик w3x w3m w3n mpq ресурсов
 by Firstrun70
 v1.0 [25.12.2019]
-Г’Г°ГҐГЎГіГҐГІГ±Гї pw3i.exe v1.02
 
-ГЊГҐГІГ®Г¤Г» Г°Г ГЎГ®ГІГ»:
-1 - Г°Г ГЎГ®ГІГ ГҐГІ ГЁГ§ ГІГҐГЄГіГ№ГҐГ© ГЇГ ГЇГЄГЁ. ГЏГҐГ°ГҐГ¤ Г§Г ГЇГіГ±ГЄГ®Г¬ Г­ГіГ¦Г­Г® Г±ГЄГ®ГЇГЁГ°Г®ГўГ ГІГј bat ГґГ Г©Г« Гў ГЇГ ГЇГЄГі Г± ГЄГ Г°ГІГ Г¬ГЁ.
-2 - Г°Г ГЎГ®ГІГ ГҐГІ Г± ГЇГ°ГїГ¬Г»Г¬ ГіГЄГ Г§Г Г­ГЁГҐГ¬ ГЇГ ГЇГ®ГЄ. Г‡Г ГЇГіГ±ГЄГ ГѕГІГ±Гї ГЁГ§ Г«ГѕГЎГ®ГЈГ® Г¤Г°ГіГЈГ®ГЈГ® Г¬ГҐГ±ГІГ .
-Г‚ ГЇГ°Г®ГЈГ°Г Г¬Г¬ГҐ ГҐГ±ГІГј Г±ГЄГ°Г»ГІГ»ГҐ Г¬ГҐГІГ®Г¤Г» Г°Г ГЎГ®ГІГ» 11 12 13 21 22 23 (11=1 21=2), Г¬ГҐГІГ®Г¤Г» 12 13 22 23 ГўГ»ГЇГ®Г«Г­ГїГѕГІГ±Гї Г Г«ГјГІГҐГ°Г­Г ГІГЁГўГ­Г® Г± Г¤Г°ГіГЈГЁГ¬ Г«Г®ГЈГЁГ°Г®ГўГ Г­ГЁГҐГ¬ Г°Г ГЎГ®ГІГ».
-pw3i 1.02 Г°Г ГЎГ®ГІГ ГҐГІ ГІГ®Г«ГјГЄГ® Г± File format = 18 25 28 ГЁ Г­ГҐ Г°Г ГЎГ®ГІГ ГҐГІ Г± File format = 8 10 11 15 23 24 26 27 31
+WinMPQ v1.64 + VB40032.DLL + WinMPQ Batcher 1.0
+Рекомендуется использовать chcp 1251
+Методы работы:
+1 - работает из текущей папки. Перед запуском нужно скопировать bat файл в папку с картами.
+2 - работает с прямым указанием папок. Запускаются из любого другого места.
+В программе есть скрытые методы работы 11 12 21 22 (11=1 21=2), методы 12 и 22 выполняются альтернативно с другим логированием работы.
+github https://github.com/Firstrun70/WinMPQ-Batcher
+
+Вариант 2:
+Total Commander + MPQ plugin (качать отдельно)
+Установить плагин MPQ plugin (Скопировать в папку \Total commander\Plugins\wcx\MPQ\ )
+Конфигурация - Настройка - Архиваторы - Настройка архиваторных плагинов - справа сверху в углу написать "mpq" - Обзор - Выбрать путь к плагину "MPQ plugin" - ОК
+То же самое сделать для w3x w3m w3n
+
+Выделить нужные w3x w3m w3n mpq файлы
+Alt+F9 (распаковка)
+Указать куда распаковывать
+Маска для распаковки - war3map.j;war3map.w3i;war3map.wts;war3mapMap.blp;war3mapPreview.tga
+поставить галочку "Распаковывать каждый архив в отдельный каталог (с именем архива)" или "Unpack each archive to a separate subdir (name of the archive)" 
+
+Вариант 3:
+MPQExtractor https://github.com/Kanma/MPQExtractor
+Нет скомпилированного релиза
+
+Пакетная распаковка всех файлов из mpq:
+Вариант 1 не подходит, WinMPQ распаковывает только по одному файлу
+Вариант 2 маска для распаковки *.*
+Вариант 3 не скомпилирован в exe
+
+war3mapMap.blp пакетно можно конвертировать в png через программу BLP Lab https://xgm.guru/p/wc3/blplab
+
+Защита http://www.zezula.net/en/mpq/war3maps.html
+filelist http://www.zezula.net/en/mpq/namebreak.html
+-----------------------------------------------------------------------------------
