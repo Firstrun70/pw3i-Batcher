@@ -1,0 +1,25 @@
+------------------------------------- English -------------------------------------
+pw3i Batcher - Batch metadata parser from w3x w3m (from war3map.w3i war3map.wts)
+by Firstrun70
+v1.0 [12.25.2019]
+Requires pw3i.exe v1.02
+
+Work methods:
+1 - works from the current folder. Before starting, you need to copy the bat file to the folder with maps.
+2 - works with direct folders. Run from anywhere.
+The program has hidden working methods 11 12 13 21 22 23 (11=1 21=2), methods 12 13 22 23 are executed alternatively with other work logging.
+pw3i 1.02 only works with File format = 18 25 28 and does not work with File format = 8 10 11 15 23 24 26 27 31
+
+
+
+------------------------------------- Russian -------------------------------------
+pw3i Batcher - Ïàêåòíûé ïàðñåð w3x w3m ìåòàäàííûõ (èç war3map.w3i war3map.wts)
+by Firstrun70
+v1.0 [25.12.2019]
+Òðåáóåòñÿ pw3i.exe v1.02
+
+Ìåòîäû ðàáîòû:
+1 - ðàáîòàåò èç òåêóùåé ïàïêè. Ïåðåä çàïóñêîì íóæíî ñêîïèðîâàòü bat ôàéë â ïàïêó ñ êàðòàìè.
+2 - ðàáîòàåò ñ ïðÿìûì óêàçàíèåì ïàïîê. Çàïóñêàþòñÿ èç ëþáîãî äðóãîãî ìåñòà.
+Â ïðîãðàììå åñòü ñêðûòûå ìåòîäû ðàáîòû 11 12 13 21 22 23 (11=1 21=2), ìåòîäû 12 13 22 23 âûïîëíÿþòñÿ àëüòåðíàòèâíî ñ äðóãèì ëîãèðîâàíèåì ðàáîòû.
+pw3i 1.02 ðàáîòàåò òîëüêî ñ File format = 18 25 28 è íå ðàáîòàåò ñ File format = 8 10 11 15 23 24 26 27 31
